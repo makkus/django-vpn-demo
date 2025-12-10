@@ -27,7 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["admin.django-vpn.demos.frkl.dev",     "django-vpn.demos.frkl.dev", "admin.django-vpn.demos.local", "django-vpn.demos.local"]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-vpn.demos.frkl.dev",
+    "https://admin.django-vpn.demos.frkl.dev",
+]
 # Application definition
 
 INSTALLED_APPS = [
