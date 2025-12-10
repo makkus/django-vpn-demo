@@ -1,2 +1,2 @@
 [start]
-cmd = 'python manage.py migrate && gunicorn  {app_name}.wsgi:application --bind 0.0.0.0:8000'
+cmd = 'python manage.py migrate && gunicorn  django_vpn_demo.wsgi:application --bind 0.0.0.0:8000'
