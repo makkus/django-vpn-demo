@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-x#%%bh9z(41kohp90)sjhek@xox+f1l#7q@56sq3sz9o7kh*1*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["admin.django-vpn.demos.frkl.dev",     "django-vpn.demos.frkl.dev", "admin.django-vpn.demos.local", "django-vpn.demos.local"]
 
 
 # Application definition
