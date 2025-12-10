@@ -7,4 +7,5 @@ dependencies = [
     "django>=6.0",
     "django-hosts>=7.0.0",
     "gunicorn>=23.0.0",
+    "whitenoise>=6.8.2",
 ]
