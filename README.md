@@ -21,11 +21,11 @@ This repository contains a demo Django project to show how to use Django partial
   - set `DEFAULT_HOST` to 'public'
   - configure `hosts.py` to use `public` and `private` hosts:
     - ```python
-from django.conf import settings
+[from django.conf import settings
 from django_hosts import patterns, host
 
 host_patterns = patterns('',
     host(r'admin', admin.site.urls, name='admin'),
     host(r'(\w+)', settings.ROOT_URLCONF, name='public'),
-)
+)]()
 ```
