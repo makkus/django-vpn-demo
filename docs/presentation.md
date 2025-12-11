@@ -1,11 +1,11 @@
 ---
 title: "Protecting Django using private networks"
-sub_title: (tailscale!)
+sub_title: (like tailscale)
 author: Markus Binsteiner
 ---
 
-Private network
----------------
+Private networks
+----------------
 
 - Class A: 10.0.0.0 to 10.255.255.255 
 - Class B: 172.16.0.0 to 172.31.255.255 
@@ -90,4 +90,11 @@ Private
  https://admin.django-vpn.demos.frkl.dev/
 <!-- reset_layout -->
 
+<!-- end_slide -->
 
+Demo code
+---------
+
+- https://github.com/makkus/django-vpn-demo
+
+![image](demo-code.png)
